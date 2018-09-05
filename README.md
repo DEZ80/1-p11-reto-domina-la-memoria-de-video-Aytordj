@@ -20,14 +20,14 @@ PC: 4000
 ## Actividad 3: Rectángulo de 2 colores y 2 píxeles de ancho
 Alrededor del texto `1.1` que va después de BASIC.
 ```
-21 17 FF 22 3D FA 22 DD C2 3E 06 32 9F C2 32 8D C2 32 8D CA 32 8D D2 32 8D DA 32 8D E2 32 8D EA 32 8D F2 32 8D FA 21 FF FF 22 3F FA 22 41 FA 22 DF C2 22 E1 C2 21 FF 8E 22 43 FA 22 E3 C2 18 FE
+21 17 FF 22 3D FA 22 DD C2 22 3D F2 22 DD CA 3E 06 32 8D C2 32 8D CA 32 8D D2 32 8D DA 32 8D E2 32 8D EA 32 8D F2 32 8D FA 32 94 C2 32 94 CA 32 94 D2 32 94 DA 32 94 E2 32 94 EA 32 94 F2 32 94 FA 21 FF FF 22 3F FA 22 41 FA 22 DF C2 22 E1 C2 22 3F F2 22 DF CA 22 41 F2 22 E1 CA 21 FF 8E 22 43 FA 22 E3 C2 22 43 F2 22 E3 CA 18 FE
 ```
 PC: 4000
 
 ## Actividad 4: Cara de un dado de 8x7 píxeles
 Debe estar, más o menos, en el centro de la pantalla (no tiene porqué ser exacto)
 ```
-21 43 77 22 00 C8 18 FE
+21 F0 F0 22 45 DB 22 45 E3 22 45 EB 22 45 F3 22 45 FB 22 95 C3 22 95 CB 3E F6 32 46 E3 32 45 E3 32 45 F3 32 46 F3 32 95 C3 32 96 C3 18 FE
 ```
 PC: 4000
 
